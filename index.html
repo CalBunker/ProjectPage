@@ -32,10 +32,30 @@
         font-size: 4em;
       }
 
+      .text {
+        padding-top: 7%;
+      }
+
       section::after {
         content: "";
         display: table;
         clear: both;
+      }
+
+      img {
+        max-height: 100%;
+      }
+
+      .guide {
+        background-color: #373739;
+        height: 150px;
+        width: 35%;
+        float: left;
+        margin-top: 2%;
+      }
+
+      .guide:hover {
+        background-color: #525255;
       }
     </style>
   </head>
@@ -48,17 +68,17 @@
     });
     </script>
     <header>
-      <h1 class="header">Chromebook Repair Guides</h1>
+      <h1 class="header" style="color:#375792;">Chromebook Repair Guides</h1>
     </header>
     <main>
     <!--HP G5-->
     <div class="guide">
       <a href="subpages/HPG5.html">
-      <content>
+      <content class="text">
         <h1>HP G5</h1>
       </content>
       <content>
-
+        <img src="images/G5.jpeg" style="float: right;">
       </content>
       </a>
     </div>
@@ -66,9 +86,9 @@
     <div class="guide" style="margin-left: 2%;">
       <a href="subpages/HPG5EE.html">
       <content>
-
+        <img src="images/G5EE.jpeg" style="float: left;">
       </content>
-      <content>
+      <content class="text">
         <h1>HP G5EE</h1>
       </content>
       </a>
@@ -76,11 +96,11 @@
     <!--HP G6-->
     <div class="guide">
       <a href="subpages/HPG6.html">
-      <content>
+      <content class="text">
         <h1>HP G6</h1>
       </content>
       <content>
-
+        <img src="images/G6.jpeg" style="float: right;">
       </content>
       </a>
     </div>
@@ -88,9 +108,9 @@
     <div class="guide" style="margin-left: 2%;">
       <a href="subpages/HPG8.html">
       <content>
-
+        <img src="images/G8.jpeg" style="float: left;">
       </content>
-      <content>
+      <content class="text">
         <h1>HP G8</h1>
       </content>
       </a>
@@ -98,11 +118,11 @@
     <!--Asus C202-->
     <div class="guide">
       <a href="subpages/ASUS.html">
-      <content>
+      <content class="text">
         <h1>Asus C202</h1>
       </content>
       <content>
-
+        <img src="images/Asus.jpeg" style="float: right;">
       </content>
       </a>
     </div>
@@ -110,9 +130,9 @@
     <div class="guide" style="margin-left: 2%;">
       <a href="subpages/DELL.html">
       <content>
-
+        <img src="images/3100.jpeg" style="float: left;">
       </content>
-      <content>
+      <content class="text">
         <h1>Dell 3100</h1>
       </content>
       </a>
