@@ -1,0 +1,25 @@
+main {
+    width: 100%;
+    margin-left: 14%;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    float: left;
+    background-color: lightblue;
+}
+
+content {
+    width: 50%;
+    height: 1000px;
+    float: left;
+    background-color: lightcoral;
+}
+
+aside {
+    width: 50%;
+    height: 1000px;
+    float: left;
+    background-color: lightgoldenrodyellow;
+}
