@@ -3,7 +3,8 @@ body {
 }
 
 main {
-    padding-left: 10%;
+    width: 100%;
+    margin-left: 14%;
 }
 
 /* Classes */
@@ -11,8 +12,7 @@ main {
 .guide {
     background-color: aqua;
     height: 150px;
-    width: 500px;
+    width: 35%;
     float: left;
     margin-top: 2%;
-    margin-left: 2%;
 }

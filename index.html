@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <title> </title>
+    <title>Chromebook Repair</title>
     <link rel="stylesheet" href="../MainCss.css">
     <meta charset="UTF-8">
     <meta name="description" content="">
@@ -10,7 +10,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <link href="main.css" rel="stylesheet">
+    <link href="images/icon.ico" rel="icon" type="image/x-icon">
     <style>
+      h1 {
+        text-align: center;
+      }
+
       content {
         width: 50%;
         height: 100%;
@@ -26,6 +31,12 @@
         text-align: center;
         font-size: 4em;
       }
+
+      section::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
     </style>
   </head>
   <body>
@@ -36,10 +47,10 @@
     $("#nav-placeholder").load("nav.html");
     });
     </script>
-    <main>
     <header>
       <h1 class="header">Chromebook Repair Guides</h1>
     </header>
+    <main>
     <!--HP G5-->
     <div class="guide">
       <a href="subpages/HPG5.html">
@@ -52,13 +63,13 @@
       </a>
     </div>
     <!--HP G5EE-->
-    <div class="guide">
+    <div class="guide" style="margin-left: 2%;">
       <a href="subpages/HPG5EE.html">
       <content>
-        <h1>HP G5EE</h1>
+
       </content>
       <content>
-
+        <h1>HP G5EE</h1>
       </content>
       </a>
     </div>
@@ -74,13 +85,13 @@
       </a>
     </div>
     <!--HP G8-->
-    <div class="guide">
+    <div class="guide" style="margin-left: 2%;">
       <a href="subpages/HPG8.html">
       <content>
-        <h1>HP G8</h1>
+
       </content>
       <content>
-
+        <h1>HP G8</h1>
       </content>
       </a>
     </div>
@@ -96,13 +107,13 @@
       </a>
     </div>
     <!--Dell 3100-->
-    <div class="guide">
+    <div class="guide" style="margin-left: 2%;">
       <a href="subpages/DELL.html">
       <content>
-        <h1>Dell 3100</h1>
+
       </content>
       <content>
-
+        <h1>Dell 3100</h1>
       </content>
       </a>
     </div>
