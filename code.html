@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Source Code - Chromebook Repair</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Source code page">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Coding, Code Projects, Projects">
+    <meta name="author" content="CalBunker">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link href="main.css" rel="stylesheet">
+    <link href="images/icon.ico" rel="icon" type="image/x-icon">
+    <style>
+        .header {
+            text-align: center;
+            font-size: 4em;
+            color:#375792;
+        }
+
+        table {
+            width: 80%;
+            margin-left: 10%;
+        }
+
+        th {
+            color: #cbc11f;
+            transition: color 0.2s;
+            padding: 10px;
+        }
+
+        th:hover {
+            color: #d3ce70;
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+        <h1 class="header">Source Code</h1>
+    </header>
+    <div id="nav-placeholder" style="margin-bottom: 50px;">
+    </div>
+    <script>
+    $(function(){
+    $("#nav-placeholder").load("nav.html");
+    });
+    </script>
+    <main>
+        <table border="2px">
+            <tr>
+                <th><a href="homeCode.html">Home Page</a></th>
+            </tr>
+            <tr>
+                <th><a href="aboutCode.html">About Us</a></th>
+            </tr>
+            <tr>
+                <th><a href="G5Code.html">HP G5 Guide</a></th>
+            </tr>
+          </table>
+    </main>
+    <div id="footer">
+    </div>
+    <script>
+    $(function(){
+    $("#footer").load("footer.html");
+    });
+    </script>
+  </body>
+</html>
