@@ -5,21 +5,153 @@
 </head>
 <body>
   <div id="nav-placeholder" style="margin-bottom: 50px;">
-  </div>
-  <script>
-  $(function(){
-  $("#nav-placeholder").load("nav.html");
-  });
-  </script>
     <xmp>
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Chromebook Repair</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Home page">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Coding, Code Projects, Projects">
+    <meta name="author" content="CalBunker">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link href="main.css" rel="stylesheet">
+    <link href="images/icon.ico" rel="icon" type="image/x-icon">
+    <style>
+      h1 {
+        text-align: center;
+      }
 
+      content {
+        width: 50%;
+        height: 100%;
+        float: left;
+        overflow: hidden;
+      }
+
+      .text {
+        padding-top: 7%;
+      }
+
+      section::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      img {
+        max-height: 100%;
+      }
+
+      .guide {
+        background-color: #373739;
+        height: 150px;
+        width: 49%;
+        float: left;
+        margin-top: 2%;
+        transition: background-color 0.2s;
+      }
+
+      .guide:hover {
+        background-color: #525255;
+      }
+
+      .header {
+        text-align: center;
+        font-size: 4em;
+        color:#375792;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 class="header">Chromebook Repair Guide</h1>
+    </header>
+    <div id="nav-placeholder" style="margin-bottom: 20px;">
+    </div>
+    <script>
+    $(function(){
+    $("#nav-placeholder").load("nav.html");
+    });
+    </script>
+    <main>
+    <!--HP G5-->
+    <div class="guide" style="margin-top: 0px;">
+      <a href="HPG5.html">
+      <content class="text">
+        <h1 style="color:#cbc347;">HP G5</h1>
+      </content>
+      <content>
+        <img src="images/G5.jpeg" style="float: right;">
+      </content>
+      </a>
+    </div>
+    <!--HP G5EE-->
+    <div class="guide" style="margin-left: 2%; margin-top: 0px;">
+      <a href="HPG5EE.html">
+      <content>
+        <img src="images/G5EE.jpeg" style="float: left;">
+      </content>
+      <content class="text">
+        <h1 style="color:#cbc347;">HP G5EE</h1>
+      </content>
+      </a>
+    </div>
+    <!--HP G6-->
+    <div class="guide">
+      <a href="HPG6.html">
+      <content class="text">
+        <h1 style="color:#cbc347;">HP G6</h1>
+      </content>
+      <content>
+        <img src="images/G6.jpeg" style="float: right;">
+      </content>
+      </a>
+    </div>
+    <!--HP G8-->
+    <div class="guide" style="margin-left: 2%;">
+      <a href="HPG8.html">
+      <content>
+        <img src="images/G8.jpeg" style="float: left;">
+      </content>
+      <content class="text">
+        <h1 style="color:#cbc347;">HP G8</h1>
+      </content>
+      </a>
+    </div>
+    <!--Asus C202-->
+    <div class="guide">
+      <a href="ASUS.html">
+      <content class="text">
+        <h1 style="color:#cbc347;">Asus C202</h1>
+      </content>
+      <content>
+        <img src="images/Asus.jpeg" style="float: right;">
+      </content>
+      </a>
+    </div>
+    <!--Dell 3100-->
+    <div class="guide" style="margin-left: 2%;">
+      <a href="DELL.html">
+      <content>
+        <img src="images/3100.jpeg" style="float: left;">
+      </content>
+      <content class="text">
+        <h1 style="color:#cbc347;">Dell 3100</h1>
+      </content>
+      </a>
+    </div>
+    </main>
+    <div id="footer">
+    </div>
+    <script>
+    $(function(){
+    $("#footer").load("footer.html");
+    });
+    </script>
+  </body>
+</html>
     </xmp>
-  <div id="footer">
-  </div>
-  <script>
-  $(function(){
-  $("#footer").load("footer.html");
-  });
-  </script>
 </body>
 </html>
