@@ -21,9 +21,3 @@ p, ul {
 ul {
     list-style-type: square;
 }
-
-.header {
-    text-align: center;
-    font-size: 4em;
-    color:#375792;
-  }
